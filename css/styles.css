@@ -1,17 +1,62 @@
-body{
-  background-color: #E5E5E5;
-  color: #757575;
+/* Site nav */ 
+
+.site-nav a {
+  color: var(--title-text-color);
 }
 
-/* цвет основного текста #212121 */
-/* вторичный цвет текста #757575 */
-/* черный цвет #000000 */
-/* акцент #2196F3 */ 
-/* белый цвет #FFFFFF */ 
-/* rgba(255, 255, 255, 0.6) */
-/* вторичный цвет фона #2F303A */
-/* дополнительный цвет фона ##F5F4FA */
+.site-nav .link:hover,
+.site-nav .link:focus {     
+  color: var(--accent-color);
+}
+  
+/* Contact nav */
 
-.logo{
-    color: #000000;
+.contact-nav a {
+  color: var(--primary-text-color);
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--accent-color);
+} 
+
+/* Hero */
+
+.hero {
+  background-color: #2F303A;
+}
+
+.hero-title {
+  color: #FFFFFF;
+}
+
+/* Section */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* Examples */
+.work-list {
+  list-style: none;
+}
+
+/* Team */
+
+.section-team {
+  background-color: #F5F4FA;
+} 
+
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+.team-list .text {
+  color: var(--primary-text-color);
 }
