@@ -1,0 +1,45 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* черный цвет #000000 */
+/* акцент #2196F3 */ 
+/* белый цвет #FFFFFF */ 
+/* футер rgba(255, 255, 255, 0.6) */
+/* вторичный цвет фона #2F303A */
+/* дополнительный цвет фона #F5F4FA */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+}
+  
+body{
+  background-color: #FFFFFF;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #000000;
+}
+
+.part {
+  color: var(--accent-color);
+}
+
+/* Footer */
+
+footer {
+  background-color: #2F303A;
+}
+
+.address-map {
+  color: #FFFFFF;
+}
+
+.logo-footer {
+  color: #FFFFFF;
+}
