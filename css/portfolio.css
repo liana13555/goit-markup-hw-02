@@ -1,0 +1,15 @@
+/* Site nav */ 
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Section */
+
+.portfolio .title {
+  color: var(--title-text-color);  
+}
+
+.portfolio .text {
+  color: var(--primary-text-color);
+}

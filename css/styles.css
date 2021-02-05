@@ -1,19 +1,11 @@
 /* Site nav */ 
 
-.site-nav a {
-  color: var(--title-text-color);
-}
-
 .site-nav .link:hover,
 .site-nav .link:focus {     
   color: var(--accent-color);
 }
   
 /* Contact nav */
-
-.contact-nav a {
-  color: var(--primary-text-color);
-}
 
 .contact-nav .link:hover,
 .contact-nav .link:focus {
@@ -23,40 +15,34 @@
 /* Hero */
 
 .hero {
-  background-color: #2F303A;
+  background-color: var(--secondary-bg-color);
 }
 
 .hero-title {
-  color: #FFFFFF;
-}
-
-/* Section */
-
-.section-title {
-  color: var(--title-text-color);
+  color: var(--white-color);
 }
 
 /* Features */
 
-.feature-list .title {
+.feature .title {
   color: var(--title-text-color);
 }
 
 /* Examples */
-.work-list {
+.work {
   list-style: none;
 }
 
 /* Team */
 
 .section-team {
-  background-color: #F5F4FA;
+  background-color: var(--additional-bg-color);
 } 
 
-.team-list .title {
+.team .title {
   color: var(--title-text-color);
 }
 
-.team-list .text {
+.team .text {
   color: var(--primary-text-color);
 }
