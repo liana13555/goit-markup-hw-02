@@ -20,17 +20,35 @@
 
 .hero-title {
   color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Button */ 
+
+.button.order {
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
 
 /* Features */
 
 .feature .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14; 
+  text-transform: uppercase;
 }
 
-/* Examples */
-.work {
-  list-style: none;
+.feature .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 /* Team */
@@ -41,8 +59,17 @@
 
 .team .title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  /* text-align: center; */
 }
 
 .team .text {
-  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  
+  /* text-align: center; */
 }

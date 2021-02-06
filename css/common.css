@@ -21,6 +21,9 @@
 body{
   background-color: var(--white-color);
   color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 ul {
@@ -33,10 +36,21 @@ a {
 
 .logo {
   color: var(--primary-black-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .part {
   color: var(--accent-color);
+}
+
+.page-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 /* Site nav */ 
@@ -58,11 +72,6 @@ a {
   background-color: var(--additional-bg-color);
 }
 
-.primary.button {
-  background-color: var(--accent-color);
-  color: var(--white-color);
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -81,6 +90,10 @@ a {
 
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* Footer */
@@ -91,12 +104,22 @@ footer {
 
 .address .text {
   color: var(--white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .address .link {
   color: var(--secondary-black-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .logo-footer {
   color: var(--white-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
